@@ -1,0 +1,4 @@
+AuthUserFile \\172.21.204.202\webvol6\95\aykiufxig25c2u8\photto.org\public_html\hr\.htpasswd
+AuthName "hr" 
+AuthType Basic
+Require valid-user

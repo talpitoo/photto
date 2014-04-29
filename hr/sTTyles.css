@@ -1,0 +1,300 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 10px;
+}
+p {
+	font-weight: bold;	
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #dddddd !important;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.white {
+	color: #AAAAAA;
+	font-weight: normal;
+}
+a.white:hover {
+	color: #444444;
+	text-decoration: none;
+}
+a.white:active {
+	color: #444444;
+	text-decoration: none;
+}
+a.white:visited {
+	color: #444444;
+	text-decoration: none;
+}
+.activeImage {
+	color: #ffffff !important;
+}
+.imagelink {
+	cursor: pointer;
+}
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+/* layouTT */
+
+#align-helper {
+	float: left;
+	height: 50%;
+	margin-bottom: -278px;
+	width: 1px;
+}
+#film {
+	clear: both;
+	height: 594px;
+	position: relative;
+}
+#header {
+	height: 15px;
+	min-width: 1004px;
+}
+#menu {
+	float: left;
+	height: 12px;
+	padding-left: 6px;
+}
+#construction {
+	float: right;
+	height: 12px;
+	padding-right: 6px;
+	display: none;
+}
+#perforation-top {
+	height: 63px;
+	min-width: 1004px;
+	background-image: url(images/topframetransparent.gif);
+}
+.minwidth {
+	width: 1004px;
+	height: 0px;
+}
+#film-inner {
+	background-color: #000000;
+}
+#home {
+	height: 400px;
+	text-align: center;
+	background-color: #000000;
+	vertical-align: middle;
+	width: 1004px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vvv {
+	width: 494px;
+	float: left;
+	padding-top: 130px;
+	text-align: center;	
+}
+.ttclick {
+	width: 510px;
+	height: 400px;
+	float: right;
+}
+#gallery {
+	position: relative;
+	height: 400px;
+	background-color: #000000;
+	vertical-align: middle;
+	width: 1004px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pic,
+#whosethatgirlpic {
+	border: 1px solid black;
+}
+#loading-holder {
+	left: 186px;
+	position: absolute;
+	top: 180px;
+}
+#bio {
+	width: 1004px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#bio-vvv {
+	margin-bottom: 15px;
+}
+.quote {
+	color: #777777;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 11px;
+	line-height: 16px;
+	width: 427px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+#contact {
+	text-align: right;
+	width: 510px;
+	height: 388px;
+	float: left;
+	padding-top: 10px;
+}
+#contact p {
+	margin-bottom: 5px;
+}
+#news {
+	width: 1004px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#news-scroll {
+	width: 488px;
+	height: 356px;
+	float: left;
+	margin-top: 10px;
+	text-align: right;	
+	padding: 10px;
+	overflow: auto;
+	border: 1px solid #111111;
+	scrollbar-base-color: black;
+	scrollbar-arrow-color: #444444;
+	scrollbar-track-color: #070707;
+	scrollbar-shadow-color: black;
+	scrollbar-lightshadow-color: black;
+	scrollbar-darkshadow-color: #222222;
+	scrollbar-highlight-color: #333333;
+	scrollbar-3dlight-color: black;
+}
+.news-section {
+	clear: both;
+}
+.news-section div {
+	float: right;
+	margin-left: 10px;
+}
+.news-section p {
+	margin-bottom: 10px;
+}
+.news-spacer {
+	height: 40px;
+	width: 95%;
+	float: right;
+}
+#perforation-bottom {
+	padding-left: 196px;
+	height: 63px; 
+	min-width: 808px;
+	background-image: url(images/bottomframetransparent.gif);
+}
+#gallerylinks {
+	width: 490px;
+}
+.bottomcell {
+	float: left;
+	width: 49px;
+	height: 63px;
+	background-image: url(images/bottomframetransparent.gif);
+	border-width: 0px;	
+}
+#footer {
+	height: 34px;
+	min-width: 1004px;
+	position: relative;
+}
+#galleryhover {
+	width: 385px;
+	position: absolute;
+	left: 196px;
+	text-align: center;
+	height: 12px;
+	top: 8px;
+}
+#galleryhover {
+	width: 441px;
+}
+#gallerytitles {
+	height: 22px;
+	left: 50%;
+	margin-left: -457px;
+	position: absolute;
+	text-align: left;
+	top: 8px;
+	width: 900px;
+}
+#gallerytitle-first,
+#gallerytitle-rest,
+#loading-first,
+#loading-rest,
+#loading-bike  {
+	background: transparent url(images/gallerylinks-background.gif);
+	height: 22px;
+	width: 2px;
+	float: left;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+#gallerytitle-rest {
+	background-position: right;
+	width: auto;
+	line-height: 22px;
+	padding-right: 5px;	
+}
+#loading-rest {
+	background-position: right;
+	width: 2px;
+}
+#loading-bike {
+	background-position: -2px;
+	width: 28px;
+}
+#bike {
+	margin-top: 4px;
+}
+#gallerytitle-animals,
+#gallerytitle-hiking,
+#gallerytitle-ego,
+#gallerytitle-street,
+#gallerytitle-whosthatgirl,
+#gallerytitle-children,
+#gallerytitle-6meseci,
+#gallerytitle-hr,
+#gallerytitle-kadabizidoviznalidagovore,
+#loading-content {
+	float: left;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 22px;
+	line-height: 22px;
+	background-color: #999999;
+}
+#CopyrighTT {
+	float: right;
+	width: 98px;
+	height: 34px;
+}

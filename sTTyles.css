@@ -1,0 +1,393 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+}
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;	
+	font-size: 10px;
+}
+p {
+	font-weight: bold;	
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+a:active {
+	color: #dddddd;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.white {
+	color: #AAAAAA;
+	font-weight: normal;
+}
+a.white:hover {
+	color: #444444;
+	text-decoration: none;
+}
+a.white:active {
+	color: #444444;
+	text-decoration: none;
+}
+a.white:visited {
+	color: #444444;
+	text-decoration: none;
+}
+.activeImage {
+	color: #ffffff !important;
+	position: relative; /* ie8 bugfix */
+}
+.imagelink {
+	cursor: pointer;
+}
+.hidden {
+	visibility: hidden;
+	display: none;
+}
+
+/* layouTT */
+
+#image-holder {
+	position:relative;
+	z-index: 101; /* for masking */
+}
+
+#align-helper {
+	float: left;
+	height: 50%;
+	margin-bottom: -278px;
+	width: 1px;
+}
+#film {
+	clear: both;
+	height: 594px;
+	position: relative;
+}
+#header {
+	height: 15px;
+	min-width: 1004px;
+}
+#menu {
+	float: left;
+	height: 12px;
+	padding-left: 6px;
+}
+#construction {
+	float: right;
+	height: 12px;
+	padding-right: 6px;
+	display: none;
+}
+#perforation-top {
+	height: 63px;
+	min-width: 1004px;
+	background: transparent url(images/framestransparent.gif) repeat-x 0px -126px;
+}
+.minwidth {
+	width: 1004px;
+	height: 0px;
+}
+#film-inner {
+	background-color: #000000;
+}
+#home {
+	height: 400px;
+	text-align: center;
+	background-color: #000000;
+	vertical-align: middle;
+	width: 1004px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.vvv {
+	width: 494px;
+	float: left;
+	padding-top: 130px;
+	text-align: center;	
+}
+.ttclick {
+	width: 510px;
+	height: 400px;
+	float: right;
+}
+#gallery {
+	position: relative;
+	height: 400px;
+	background-color: #000000;
+	vertical-align: middle;
+	width: 1004px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pic,
+#whosethatgirlpic {
+	border: 1px solid black;
+}
+#loading-holder {
+	left: 186px;
+	position: absolute;
+	top: 180px;
+	z-index: 101; /* for masking */
+}
+.prev-holder {
+	left: 6px;
+	top: 167px;
+	width: 60px;
+	height: 80px;
+	background-image: url(images/prev.gif);
+}
+.next-holder {
+	left: 536px;
+	top: 167px;
+	width: 60px;
+	height: 80px;
+	background-image: url(images/next.gif);
+}
+.close-holder {
+	left: 565px;
+	top: 1px;
+	width: 36px;
+	height: 36px;
+	background-image: url(images/close.gif);
+}
+.prev-holder, .next-holder, .close-holder {
+	z-index: 101;
+	display: block;
+	position: absolute;
+}
+#bio {
+	width: 1004px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#bio-vvv {
+	margin-bottom: 15px;
+}
+.quote {
+	color: #777777;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 11px;
+	line-height: 16px;
+	width: 427px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: justify;
+}
+.right {
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+.topindent {
+	margin-top: 11px;
+}
+.date {
+	font-style: normal;
+	font-size: 10px;
+}
+.quote strong {
+	font-weight: bold;
+	font-size: 12px;
+}
+.left {
+	float: left;
+	margin-left: 22px;
+}
+#contact {
+	text-align: right;
+	width: 510px;
+	height: 388px;
+	float: left;
+	padding-top: 10px;
+}
+#contact p {
+	margin-bottom: 5px;
+}
+#news {
+	width: 1004px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#news-scroll {
+	width: 488px;
+	height: 356px;
+	float: left;
+	margin-top: 10px;
+	text-align: right;	
+	padding: 10px;
+	overflow: auto;
+	border: 1px solid #111111;
+	scrollbar-base-color: black;
+	scrollbar-arrow-color: #444444;
+	scrollbar-track-color: #070707;
+	scrollbar-shadow-color: black;
+	scrollbar-lightshadow-color: black;
+	scrollbar-darkshadow-color: #222222;
+	scrollbar-highlight-color: #333333;
+	scrollbar-3dlight-color: black;
+}
+.news-section {
+	clear: both;
+}
+.news-section div {
+	float: right;
+	margin-left: 10px;
+}
+.news-section p {
+	margin-bottom: 10px;
+}
+.news-section a {
+	text-decoration: underline;
+}
+.news-spacer {
+	height: 40px;
+	width: 95%;
+	float: right;
+}
+#perforation-bottom {
+	padding-left: 196px;
+	height: 63px; 
+	min-width: 808px;
+	background: transparent url(images/framestransparent.gif) repeat-x left top;
+}
+#gallerylinks {
+	width: 441px;
+}
+#streetLink a, #wallsLink a, #hikingLink a, #childrenLink a, #animalsLink a, #sestmeseciLink a, #whosthatgirlLink a, #egoLink a {
+	width: 49px;
+	height: 63px;
+	background-image: url(images/framescategories.jpg);
+	display: block;
+	text-indent: -2000px;
+}
+#wallsLink a {
+	background-position: 0px -63px;
+}
+#hikingLink a {
+	background-position: 0px -126px;
+}
+#childrenLink a {
+	background-position: 0px -189px;
+}
+#animalsLink a {
+	background-position: 0px -252px;
+}
+#sestmeseciLink a {
+	background-position: 0px -315px;
+}
+#whosthatgirlLink a {
+	background-position: 0px -378px;
+}
+#egoLink a {
+	background-position: 0px -441px;
+}
+.bottomcell {
+	float: left;
+	width: 49px;
+	height: 63px;
+	background: transparent url(images/framestransparent.gif) no-repeat left top;
+	border-width: 0px;
+}
+#footer {
+	height: 34px;
+	min-width: 1004px;
+	position: relative;
+}
+#galleryhover {
+	width: 385px;
+	position: absolute;
+	left: 196px;
+	text-align: center;
+	height: 12px;
+	top: 8px;
+}
+#galleryhover {
+	width: 441px;
+}
+#gallerytitles {
+	height: 22px;
+	left: 50%;
+	margin-left: -457px;
+	position: absolute;
+	text-align: left;
+	top: 8px;
+	width: 800px;
+	z-index: 102; /* for masking */
+}
+.gallerytitle-placeholder {
+	display: inline-block;
+}
+#gallerytitle-first,
+#gallerytitle-rest,
+.rounded-first,
+.rounded-rest,
+#loading-bike  {
+	background: transparent url(images/gallerylinks-background.gif);
+	height: 22px;
+	width: 2px;
+	float: left;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+#gallerytitle-rest {
+	background-position: right;
+	width: auto;
+	line-height: 22px;
+	padding-right: 5px;	
+}
+.rounded-rest {
+	background-position: right;
+	width: 2px;
+}
+#loading-bike {
+	background-position: -2px;
+	width: 28px;
+}
+#bike {
+	margin-top: 4px;
+}
+#gallerytitle-animals,
+#gallerytitle-hiking,
+#gallerytitle-ego,
+#gallerytitle-street,
+#gallerytitle-whosthatgirl,
+#gallerytitle-children,
+#gallerytitle-sestmeseci,
+#gallerytitle-walls,
+#gallerytitle-lgbt,
+.rounded-content {
+	float: left;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	padding-right: 5px;
+	padding-left: 5px;
+	height: 22px;
+	line-height: 22px;
+	background-color: #999999;
+}
+#CopyrighTT {
+	float: right;
+	width: 92px;
+	height: 27px;
+}
+.size17 {
+	font-size: 17px;
+}
