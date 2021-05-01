@@ -392,3 +392,11 @@ a.white:visited {
 .size20 {
   font-size: 20px;
 }
+body::before {
+  content: 'You are looking at archived content.';
+  background-color: #f21170;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
